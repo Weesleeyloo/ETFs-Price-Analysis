@@ -54,8 +54,37 @@ The price data in `ETF Prices.csv` is highly complete that no duplicate records 
 | Intermediate Government | 12 | 0.1392% |
 | Corporate Bond | 26 | 0.1638% |
 
+### Section 03: Performance Analysis (2020)
+**Top 10 Best-Performing ETFs in 2020**
+| Fund Symbol | Category | 2020 Return |
+| --- | --- | --- |
+| FRAK | Equity Energy | 585.3943% * |
+| FNGU | Trading--Leveraged Equity | 339.7239% |
+| TAN | Miscellaneous Sector | 221.7282% |
+| FNGO | Trading--Leveraged Equity | 219.2937% |
+| ARKG | Health | 179.6402% |
+| QCLN | Miscellaneous Sector | 177.6987% |
+| ARKW | Technology | 148.6578% |
+| ARKK | Mid-Cap Growth | 146.5149% |
+| PBD | Miscellaneous Sector | 138.9959% |
+| CNRG | Equity Energy | 137.3219% |
+> Data Limitation: Return calculations are based on raw closing prices
+> from the source dataset. For ETFs that underwent stock splits during or 
+> prior to 2020, the calculated returns may be significantly distorted due 
+> to inconsistent price adjustments in the source data.
+> > *FRAK underwent a 1-for-10 stock split. Its calculated return of 585% 
+> does not reflect actual market performance. Results should be interpreted 
+> with this limitation in mind.
 
-### Section 03
+**Top 5 Categories by Average 2020 Return**
+| Fund Category | Avg 2020 Return |
+| --- | --- |
+| Miscellaneous Sector | 60.2908% |
+| Convertibles | 48.9819% |
+| Technology | 48.9600% |
+| Consumer Cyclical | 40.2633% |
+| Foreign Small/Mid Growth | 40.2107% |
+
 ### Section 04
 ### Section 05
 
