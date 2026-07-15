@@ -181,6 +181,24 @@ CREATE OR REPLACE VIEW category_avg AS (
 		GROUP BY fund_category
 );
 
+-- Top 10 ETFs by average 2020 return
+SELECT
+	fund_symbol,
+	fund_category,
+	return_2020
+FROM etf_return_2020
+ORDER BY return_2020 DESC
+LIMIT 10;
+
+-- Top 5 fund categories by average 2020 return
+SELECT
+	fund_category,
+	AVG(return_2020) AS avg_return_2020
+FROM etf_return_2020
+GROUP BY fund_category
+ORDER BY AVG(return_2020) DESC
+LIMIT 5;
+
 -- Compare the best-performing ETF against
 -- the average return of its category
 SELECT
@@ -190,15 +208,6 @@ SELECT
     ca.avg_return_2020 AS avg_category_return
 FROM best_etf be
 JOIN category_avg ca ON be.fund_category = ca.fund_category;
-
--- Top 5 fund families by average 2020 return
-SELECT
-	fund_family,
-	AVG(return_2020) AS avg_return_2020
-FROM etf_return_2020
-GROUP BY fund_family
-ORDER BY AVG(return_2020) DESC
-LIMIT 5;
 
 
 -- ========================================================================================
