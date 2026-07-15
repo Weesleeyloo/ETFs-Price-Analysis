@@ -30,11 +30,29 @@ The price data in `ETF Prices.csv` is highly complete that no duplicate records 
 
 ### Section 02: Descriptive Analysis
 **Top 10 ETFs by Total Net Assets**
-| fund_symbol | fund_category | total_net_assets |
+| Fund Symbol | Fund Category | Total Net Assets (USD) |
 | --- | --- | --- |
-|VOO
+| VOO | Large Blend | 753,409,982,464 |
+| VXUS | Foreign Large Blend | 404,728,872,960 |
+| SPY | Large Blend | 374,031,319,040 |
+| BND | Intermediate-Term Bond | 312,150,884,352 |
+| IVV | Large Blend | 286,994,399,232 |
+| QQQ	| Large Growth | 174,510,718,976 |
+| BNDX | | 116,407,050,240 |
+| IEFA | Foreign Large Blend | 95,780,700,160 |
+| IWM | Small Blend | 69,794,029,568 |
+| IWF | Large Growth | 69,161,877,504 |
+> Note: `fund_long_name` in the dataset appears mismatched with `fund_symbol`. 
+> Fund identity should be referenced by `fund_symbol` only.
 
-
+**Top 5 ETF Categories by Lowest Average Expense Ratio**
+| Fund Category | ETF Count | Avg Expense Ratio |
+| --- | --- | --- |
+| Long-Term Bond | 5 | 0.0580% |
+| Diversified Pacific/Asia | 1 | 0.0900% |
+| Inflation-Protected Bond | 12 | 0.1308% |
+| Intermediate Government | 12 | 0.1392% |
+| Corporate Bond | 26 | 0.1638% |
 
 
 ### Section 03
