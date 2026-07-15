@@ -10,7 +10,6 @@ A SQL-based analysis of 2,310 U.S. ETFs using PostgreSQL, covering data quality 
 - **Coverage**: 2,310 ETFs, 3,866,030 daily price records (1993-2021)
 - **Analysis period**: 2020 (most recent complete year in the dataset)
 
-
 ## Tools
 - **PostgreSQL**
 - **DBeaver**
@@ -29,7 +28,15 @@ Key findings from the data quality check on `ETFs.csv`:
 
 The price data in `ETF Prices.csv` is highly complete that no duplicate records were found. However, 8 entries contain zero values across all price fields (open, high, low, close) and volume, likely representing tickers on their first trading day with no activity yet recorded. These entries were excluded from analysis.
 
-### Section 02
+### Section 02: Descriptive Analysis
+**Top 10 ETFs by Total Net Assets**
+| fund_symbol | fund_category | total_net_assets |
+| --- | --- | --- |
+|VOO
+
+
+
+
 ### Section 03
 ### Section 04
 ### Section 05
