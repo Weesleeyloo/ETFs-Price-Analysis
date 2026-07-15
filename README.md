@@ -17,7 +17,7 @@ A SQL-based analysis of 2,310 U.S. ETFs using PostgreSQL, covering data quality 
 
 ## Analysis Structure
 
-### Section 01 Data Quality Check
+### Section 01: Data Quality Check
 This project begins with an assessment of the dataset's scale, time range, and data quality.
 The dataset contains 2,310 ETF tickers with daily price records spanning from 1993-01-29 to 2021-11-30, totalling 3,866,030 entries. Thanks to the original contributor, the dataset is largely clean with minimal missing or mismatched data.
 This project focuses on 2020 price data, as it is the most recent complete year available in the dataset. (The dataset was last updated approximately 5 years ago and the 2021 price data is incomplete.)
