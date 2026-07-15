@@ -25,7 +25,9 @@ This project focuses on 2020 price data, as it is the most recent complete year 
 Key findings from the data quality check on `ETFs.csv`:
 - 623 missing `fund_category` values
 - 30 missing `total_net_assets` values
-- 624 missing ``
+- 624 missing `category_annual_report_net_expense_ratio` values
+
+The price data in `ETF Prices.csv` is highly complete that no duplicate records were found. However, 8 entries contain zero values across all price fields (open, high, low, close) and volume, likely representing tickers on their first trading day with no activity yet recorded. These entries were excluded from analysis.
 
 ### Section 02
 ### Section 03
