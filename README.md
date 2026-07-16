@@ -87,6 +87,7 @@ The price data in `ETF Prices.csv` is highly complete that no duplicate records 
 | Technology | 48.9600% |
 | Consumer Cyclical | 40.2633% |
 | Foreign Small/Mid Growth | 40.2107% |
+
 > *Data Limitation: Return calculations are based on raw closing prices from the source dataset. For ETFs that underwent stock splits during or prior to 2020, the calculated returns may be significantly distorted due to inconsistent price adjustments in the source data.
 
 ### Section 04: Risk Analysis
