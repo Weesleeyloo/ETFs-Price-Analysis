@@ -1,6 +1,6 @@
 # ETF-Prices-Analysis (2020)
 ## Project Overview
-A SQL-based analysis of 2,310 U.S. ETFs using PostgreSQL, covering data quality validation, performance benchmarking, risk assessment, and multi-criteria screening.
+This Project is a SQL-based analysis of 2,310 U.S. ETFs using PostgreSQL, covering data quality validation, performance benchmarking, risk assessment, and multi-criteria screening.
 
 ## Data Source from Kaggle
 - **Dataset**: US Funds dataset from Yahoo Finance - 23k+ Mutual Funds and 2k+ ETFs scraped from Yahoo Finance [US Funds dataset from Yahoo Finance](https://www.kaggle.com/datasets/stefanoleone992/mutual-funds-and-etfs/data)
